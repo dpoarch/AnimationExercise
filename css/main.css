@@ -272,10 +272,12 @@ li {
 }
 
 .right-content {
-    color: white;
+    padding: 0 15px;
+    color: #ffffff;
     font-weight: bold;
     font-size: 2em;
     transition: all 2s ease-in;
+    text-align: center;
     -o-transition: all 2s ease-in;
     -moz-transition: all 2s ease-in;
     -webkit-transition: all 2s ease-in;
