@@ -241,6 +241,11 @@ li {
     margin: 0px;
     font-size: 1.2em;
     font-weight: 300;
+    transition: all 2s ease-in;
+    -o-transition: all 2s ease-in;
+    -moz-transition: all 2s ease-in;
+    -webkit-transition: all 2s ease-in;
+    -ms-transition: all 2s ease-in;
 }
 
 .box-wrapper {
@@ -259,20 +264,28 @@ li {
     position: relative;
     z-index: 200;
     box-shadow: -5px 10px 8px #888888;
+    transition: all 2s ease-in;
+    -o-transition: all 2s ease-in;
+    -moz-transition: all 2s ease-in;
+    -webkit-transition: all 2s ease-in;
+    -ms-transition: all 2s ease-in;
 }
 
 .right-content {
     color: white;
     font-weight: bold;
     font-size: 2em;
+    transition: all 2s ease-in;
+    -o-transition: all 2s ease-in;
+    -moz-transition: all 2s ease-in;
+    -webkit-transition: all 2s ease-in;
+    -ms-transition: all 2s ease-in;
 }
 
 .gray-gradient-box {
     background-color: #A6A6A4;
     position: absolute;
     top: 0;
-    width: 570px;
-    height: 100%;
     z-index: 150;
 }
 
@@ -359,6 +372,17 @@ li {
     position: absolute;
     top: 0;
     left: 1000px;
+    width: 570px;
+    height: 100%;
+    transition: all 2s ease;
+    -o-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    -webkit-transition: all 2s ease;
+}
+
+.polybox,
+.gray-gradient-box {
     width: 570px;
     height: 100%;
 }
